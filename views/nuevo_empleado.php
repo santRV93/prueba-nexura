@@ -64,7 +64,7 @@ include('header.php');
                 <label for="descripcion"><b>Descripción *</b></label>
             </div>
             <div class="col-md-10">
-                <textarea name="descripcion" id="descripcion" class="form-control" placeholder="Descripción de la experiencia del empleado" cols="30" rows="4"></textarea>
+                <textarea name="descripcion" id="descripcion" class="form-control" placeholder="Descripción de la experiencia del empleado" cols="30" rows="4" required></textarea>
             </div>
         </div>
     </div>
