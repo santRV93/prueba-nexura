@@ -49,7 +49,7 @@ include('header.php');
                 <label for="area"><b>Area *</b></label>
             </div>
             <div class="col-md-10">
-                <select name="area_id" id="area" class="form-control">
+                <select name="area_id" id="area" class="form-control" required>
                     <option value="">Seleccione un rol</option>
                     <?php foreach($areas as $key => $value){ ?>
                         <option value="<?= $value['id'] ?>"><?= $value['nombre'] ?></option>
